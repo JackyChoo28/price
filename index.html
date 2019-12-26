@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>Bloowin Lanyard Price</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="j.ico">
+    </head>
+        <div id="left">
+          <body>
+              <h1> Lanyard Price : </h1>
+                <div>
+                  <select id="lanyardSize">
+                  <option value=none> ---Size Select---</option>
+                  <option value="15mm"> 15MM Lanyard </option>
+                  <option value="20mm"> 20MM Lanyard </option>
+                </select>
+              </div>
+              
+              <div>
+                  <select id="material">
+                  <option value=none> ---Material Select---</option>
+                  <option value="nylon"> Nylon Material </option>
+                  <option value="polyester"> Polyester Material </option>
+                </select>
+              </div> 
+              
+                <div>
+                  <select id="printing">
+                  <option value=none> ---Printing Select---</option>
+                  <option value="1col"> 1color(SilkScreen) </option>
+                  <option value="2col"> 2color(SilkScreen) </option>
+                  <option value="fullcolor"> Full Color(Sublimation) </option>
+                </select>
+              </div> 
+              
+              <div>
+                <input type="text" id="quantity" name="lanyardQuantity" placeholder="Lanyard Quantity" />
+              </div>
+              
+                <div>
+                  <select id="side">
+                  <option value=none> ---Side Select---</option>
+                  <option value="1side"> 1 Side Printing </option>
+                  <option value="2side"> 2 Side Printing </option>
+                </select>
+              </div>
+              
+              <div>
+                <select id="accessories">
+                <option value=none> ---Accessories Select---</option>
+                <option value="metalClip"> O Ring + Metal Clip </option>
+                <option value="11061hook"> 11061 Hook </option>
+                <option value="645hook"> 645 Hook </option>
+                </select>
+              </div>
+              
+              <div>
+                <select id="buckle">
+                <option value=none> ---Buckle Select---</option>
+                <option value="none">NO Buckle </option>
+                <option value="buckle"> Black Buckle </option>
+                <option value="safetyClip"> Black Safety Clip</option>
+                <option value="buckleWithSafetyClip">Black Buckle + Safety Clip</option>
+                </select>
+              </div>
+            
+              <div>
+                <select id="finishing">
+                <option value=none> ---Finishing Select---</option>
+                <option value="clip">Clip </option>
+                <option value="button"> Button </option>
+                <option value="sewing"> Sewing</option>
+                </select>
+              </div>
+            
+              
+            <br/><button type="button" onclick="GetSelectedText()"> Submit:</button>
+        </div>  
+
+        <div id="right">
+
+            <p id="answer">
+            </p>
+
+        </div> 
+         <script src="index.js"></script>
+          </body>
+          
+    
+</html>
